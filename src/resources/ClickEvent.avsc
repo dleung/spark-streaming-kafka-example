@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "ClickEvent",
+  "namespace": "events.avro",
+  "doc": "Contains the user id and the product that the user clicked",
+  "fields": [
+     {
+       "name": "userId",
+       "type": "int"
+     },
+     {
+       "name": "productId",
+       "type": "int"
+     }
+  ]
+}
